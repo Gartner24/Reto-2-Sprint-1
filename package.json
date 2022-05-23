@@ -1,0 +1,17 @@
+{
+  "name": "reto-2",
+  "version": "1.0.0",
+  "description": "**Para hacer este reto, necesitas muy buena comprensión de HTML, CSS y JavaScript buscamos que logres mostrar tu destresa trabajando con HTML y CSS Puro además de evidenciar los conocimientos esenciales para realizar aplicaciones web dinámicas utilizando JavaScript Vanilla.**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "json-server --watch ./data/data.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1"
+  }
+}

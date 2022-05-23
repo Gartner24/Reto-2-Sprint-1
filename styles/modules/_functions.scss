@@ -1,0 +1,23 @@
+@mixin input-search {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    input[type="text"] {
+        width: 100%;
+        height: 100%;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 50px;
+        border: none;
+        border: 2px solid grey;
+    }
+    
+    input[type="image"] {
+        margin-left: -50px;
+        height: 60%;
+        width: 50px;
+        color: white;
+        border: none;
+        -webkit-appearance: none;
+    }
+}

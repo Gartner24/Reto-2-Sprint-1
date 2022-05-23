@@ -1,0 +1,48 @@
+@import '../layout/colors';
+
+@mixin light-theme {
+    color: $color-txt-light;
+    background: rgb(255, 209, 209);
+  background: -moz-linear-gradient(
+    0deg,
+    rgba(255, 209, 209, 1) 0%,
+    rgba(255, 255, 255, 1) 20%,
+    rgba(255, 255, 255, 1) 80%,
+    rgba(255, 216, 217, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(255, 209, 209, 1) 0%,
+    rgba(255, 255, 255, 1) 20%,
+    rgba(255, 255, 255, 1) 80%,
+    rgba(255, 216, 217, 1) 100%
+  );
+  background: linear-gradient(
+    0deg,
+    rgba(255, 209, 209, 1) 0%,
+    rgba(255, 255, 255, 1) 20%,
+    rgba(255, 255, 255, 1) 80%,
+    rgba(255, 216, 217, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffd1d1",endColorstr="#ffd8d9",GradientType=1);
+}
+
+@mixin dark-theme {
+    color: $color-txt-dark;
+    background: rgb(255,139,139);
+background: -moz-linear-gradient(0deg, rgba(255,139,139,1) 0%, rgba(0,0,0,1) 20%, rgba(0,0,0,1) 80%, rgba(255,131,135,1) 100%);
+background: -webkit-linear-gradient(0deg, rgba(255,139,139,1) 0%, rgba(0,0,0,1) 20%, rgba(0,0,0,1) 80%, rgba(255,131,135,1) 100%);
+background: linear-gradient(0deg, rgba(255,139,139,1) 0%, rgba(0,0,0,1) 20%, rgba(0,0,0,1) 80%, rgba(255,131,135,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff8b8b",endColorstr="#ff8387",GradientType=1);
+}
+
+@mixin card-light-theme {
+  background-color: $color-bg-light;
+  color: black;
+}
+
+@mixin card-dark-theme {
+  background-color: $color-bg-dark;
+  color: white;
+}
+

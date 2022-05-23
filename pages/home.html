@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <title>food hut</title>
+</head>
+
+<body class="light-theme">
+    <nav class="navbar navbar-expand-lg navbar-light px-5 vw-100 bg-transparent">
+        <div class="container-fluid px-0">
+            <a class="navbar-brand mx-lg-5" href="#">
+                <img src="../images/logo.svg" alt="logo-bookmark" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-lg-auto">
+                    <li class="nav-item d-lg-flex align-items-center my-2 my-lg-0 me-lg-5">
+                        <a href="#">Today Special Offers</a>
+                    </li>
+                    <li class="nav-item d-lg-flex align-items-center my-2 my-lg-0 me-lg-5">
+                        <a href="#">Why FoodHut</a>
+                    </li>
+                    <li class="nav-item d-lg-flex align-items-center my-2 my-lg-0 me-lg-5">
+                        <a href="#">Our Menu</a>
+                    </li>
+                    <li class="nav-item d-lg-flex align-items-center my-2 my-lg-0 me-lg-5">
+                        <a href="#">Our Popular Food</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-danger me-5 px-lg-4" href="#" role="button">Download App</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn me-5 px-lg-4" href="#" role="button" id="change-theme">THEME</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="my-5 my-lg-0">
+            <div class="container-fluid ms-lg-5">
+                <div class="row d-flex flex-column flex-lg-row">
+                    <div class="col-12 col-lg-6 d-flex flex-column p-3 p-md-5 justify-content-center pe-lg-5">
+                        <div class="text-center text-lg-start">
+                            <h1 class="title">
+                                We're <span class="pastel">Serous</span> For
+                                <span class="pastel">Food</span> &
+                                <span class="yellow">Delivery</span>.
+                            </h1>
+                            <p class="paragraph">
+                                Best cooks and best delivery guys all at your service. Hot
+                                tasty food will reach you in 60 minutes.
+                            </p>
+                            <div>
+                                <form class="search" id="search">
+                                    <input type="text" placeholder="Search food" id="search-food"/>
+                                    <input type="image" alt="Submit" src="../images/search.svg"/>
+                                </form>
+                            </div>
+                            <div class="d-flex flex-row justify-content-start align-items-end">
+                                <button class="btn btn-danger">Download App</button>
+                                <img src="../images/Play button.svg" alt="play" />
+                                <p class="m-0">Watch Video</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 d-flex justify-content-end align-items-start p-0">
+                        <img id="potrait" src="../images/client.png" alt="client" />
+                    </div>
+                </div>
+            </div>
+            <div id="searched-food" class="container-fluid container-lg d-flex flex-row flex-wrap w-100 justify-content-center">
+
+            </div>
+        </div>
+
+        <div class="container-fluid my-5">
+            <div class="row">
+                <div class="col-12 col-lg-4 d-flex align-items-start">
+                    <img class="h-100" src="../images/chef.png" alt="chef">
+                </div>
+                <div class="col-12 col-lg-8">
+                    <h2 class="title text-center text-lg-start">
+                        We are <span class="pastel">more</span> than
+                        <span class="yellow">multiple</span> service
+                    </h2>
+                    <p class="paragraph text-center text-lg-start">
+                        This is a type of restaurant wich typically serves food and
+                        drinks, in addition to light refreshment such as baked goods or
+                        snacks. The term comes frome the french word meaning food
+                    </p>
+                    <div class="container-fluid p-3 p-lg-0 m-0">
+                        <div class="row">
+                            <div class="col-6 col-lg-3">
+                                <img src="../images/image 15.svg" alt="phone" />
+                                <p>Online Order</p>
+                            </div>
+                            <div class="col-6 col-lg-3">
+                                <img src="../images/image 17.svg" alt="24/7" />
+                                <p>24/7 Service</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6 col-lg-3">
+                                <img src="../images/image 18.svg" alt="res" />
+                                <p>Pre-Reservation</p>
+                            </div>
+                            <div class="col-6 col-lg-3">
+                                <img src="../images/image 18.svg" alt="Order" />
+                                <p>Organized Foodhut Place</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6 col-lg-3">
+                                <img src="../images/image 18.svg" alt="Chef" />
+                                <p>Super Chef</p>
+                            </div>
+                            <div class="col-6 col-lg-3">
+                                <img src="../images/image 18.svg" alt="Clean" />
+                                <p>Clean Kitchen</p>
+                            </div>
+                        </div>
+                        <button class="btn btn-danger">About Us</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <h2 class="title text-center px-3 pt-5 mt-5">
+                <span class="pastel">Menu</span> That
+                <span class="yellow">Always</span> Make You Fall In
+                <span class="pastel">Love</span>
+            </h2>
+            <div class="container-fluid d-flex justify-content-center flex-wrap py-5">
+                <button class="btn btn-danger my-2 mx-5" id="breakfast">
+                    Breakfast
+                </button>
+                <button class="btn btn-danger my-2 mx-5" id="lunch">Lunch</button>
+                <button class="btn btn-danger my-2 mx-5" id="dinner">Dinner</button>
+                <button class="btn btn-danger my-2 mx-5" id="drinks">Drinks</button>
+            </div>
+
+            <div id="main-container"
+                class="container-fluid container-lg d-flex flex-row flex-wrap w-100 justify-content-center my-5"></div>
+        </div>
+
+        <div class="container py-5 px-2 px-md-5 px-lg-5 text-center text-md-start">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <h2 class="title">
+                        It's Now <span class="pastel">More Easy</span> to
+                        <span class="yellow">Order</span> by Our Mobile
+                        <span class="pastel">App</span>
+                    </h2>
+                    <p class="paragraph">
+                        All you need to do is download one of the best delivery apps maked,
+                        !Dont think it twice and start downloading our app on your mobile
+                        phone.
+                    </p>
+                    <div>
+                        <a href="#"><img src="../images/Mobile app store badge.svg" alt="play-store" />
+                        </a>
+                        <a href="#">
+                            <img src="../images/Mobile app store badge2.svg" alt="apple-store" />
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <img class="h-100" src="../images/chef2.png" alt="mobile-app" />
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="pt-5 bg-light" id="footer">
+        <div class="container">
+            <div class="row text-center text-lg-start">
+                <div class="col-12 col-lg-4 d-flex flex-column align-items-center align-items-lg-start">
+                    <h3 class="pastel">Foodhut</h3>
+                    <p class="w-75">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam error excepturi placeat quae.</p>
+                    <img class="w-25" src="../images/Social media.png" alt="">
+                </div>
+                <div class="col-6 col-lg-2">
+                    <h3 class="pastel">About Us</h3>
+                    <p>About us</p>
+                    <p>Service Us</p>
+                    <p>Contact</p>
+                    <p>Company</p>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <h3 class="pastel">Company</h3>
+                    <p>Partnership</p>
+                    <p>Terms of Use</p>
+                    <p>Privacy</p>
+                    <p>Sitemap</p>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <h3 class="pastel">Get in touch</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam error excepturi placeat quae.</p>
+                    <form class="my-5 d-flex flex-column" id="mail-form">
+                        <div class="d-flex my-5 w-100 justify-content-center justify-content-lg-start flex-wrap flex-lg-nowrap">
+                            <div class="email-input"  class="w-75">
+                                <input name="email" id="email" placeholder="Enter your email">
+                            </div>
+                            <div class="w-25">
+                                <button type="submit" class="btn login-button">Contact Us</button>
+                            </div>
+                        </div>
+                    </form>
+                    <a href="mailto:santiagovalencialeon@gmail.com" id="contact0">CONTACT</a>
+                </div>
+            </div>
+        </div>
+        <div><p></p></div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="../scripts/script.js" type="module"></script>
+</body>
+
+</html>

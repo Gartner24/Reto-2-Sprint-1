@@ -1,0 +1,126 @@
+@import url("http://fonts.cdnfonts.com/css/sofia-pro");
+@media screen and (min-width: 0px) {
+  #breakfast,
+  #lunch,
+  #dinner,
+  #drinks {
+    width: 100%;
+  }
+  #potrait {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  #breakfast,
+  #lunch,
+  #dinner,
+  #drinks {
+    width: 10%;
+  }
+  #potrait {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  #breakfast,
+  #lunch,
+  #dinner,
+  #drinks {
+    width: 10%;
+  }
+  #potrait {
+    width: 75%;
+  }
+}
+
+body {
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.search {
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.search input[type="text"] {
+  width: 100%;
+  height: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 50px;
+  border: none;
+  border: 2px solid grey;
+}
+
+.search input[type="image"] {
+  margin-left: -50px;
+  height: 60%;
+  width: 50px;
+  color: white;
+  border: none;
+  -webkit-appearance: none;
+}
+
+.pastel {
+  color: #F54748;
+}
+
+.yellow {
+  color: #FDC55E;
+}
+
+.title {
+  font-family: "Sofia Pro", sans-serif;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.paragraph,
+p {
+  font-family: "Sofia Pro", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.dark-theme {
+  color: #FFFFFF;
+  background: #ff8b8b;
+  background: -webkit-gradient(linear, left bottom, left top, from(#ff8b8b), color-stop(20%, black), color-stop(80%, black), to(#ff8387));
+  background: linear-gradient(0deg, #ff8b8b 0%, black 20%, black 80%, #ff8387 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff8b8b",endColorstr="#ff8387",GradientType=1);
+}
+
+.light-theme {
+  color: #191919;
+  background: #ffd1d1;
+  background: -webkit-gradient(linear, left bottom, left top, from(#ffd1d1), color-stop(20%, white), color-stop(80%, white), to(#ffd8d9));
+  background: linear-gradient(0deg, #ffd1d1 0%, white 20%, white 80%, #ffd8d9 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffd1d1",endColorstr="#ffd8d9",GradientType=1);
+}
+
+.card-light-theme {
+  background-color: #FFFFFF;
+  color: black;
+}
+
+.card-dark-theme {
+  background-color: #191919;
+  color: white;
+}
+
+#contact0 {
+  display: none;
+}
+/*# sourceMappingURL=main.css.map */

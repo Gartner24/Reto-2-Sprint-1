@@ -1,0 +1,95 @@
+@import "./modules/themes";
+@import "./modules/functions";
+@import "./layout/fonts";
+@import "./layout/colors";
+
+$small: 0px;
+$medium: 1440px;
+
+@media screen and (min-width: $small) {
+  #breakfast,
+  #lunch,
+  #dinner,
+  #drinks {
+    width: 100%;
+  }
+
+  #potrait {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  #breakfast,
+  #lunch,
+  #dinner,
+  #drinks {
+    width: 10%;
+  }
+
+  #potrait {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: $medium) {
+  #breakfast,
+  #lunch,
+  #dinner,
+  #drinks {
+    width: 10%;
+  }
+
+  #potrait {
+    width: 75%;
+  }
+}
+
+body {
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.search {
+  @include input-search;
+}
+
+.pastel {
+  color: $salmon;
+}
+
+.yellow {
+  color: $yellow;
+}
+
+.title {
+  @include title-font;
+}
+
+.paragraph,
+p {
+  @include paragraph;
+}
+
+.dark-theme {
+  @include dark-theme;
+}
+
+.light-theme {
+  @include light-theme;
+}
+
+.card-light-theme {
+  @include card-light-theme;
+}
+
+.card-dark-theme {
+  @include card-dark-theme;
+}
+
+#contact0 {
+  display: none;
+}

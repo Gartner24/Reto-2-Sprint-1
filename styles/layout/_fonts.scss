@@ -1,0 +1,18 @@
+@import url('http://fonts.cdnfonts.com/css/sofia-pro');
+
+$main-font: 'Sofia Pro', sans-serif;
+
+// TITLES
+@mixin title-font {
+    font-family: $main-font;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+// PARAGRAPHS
+
+@mixin paragraph {
+    font-family: $main-font;
+    font-size: 20px;
+    font-weight: 400;
+}
